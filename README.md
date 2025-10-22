@@ -1,12 +1,19 @@
 # 🧠 Walmart Sales Forecasting
-Proyecto de predicción de ventas semanales usando modelos de Machine Learning (Random Forest, XGBoost, LightGBM y CatBoost).
+Predicción de ventas semanales en tiendas **Walmart** utilizando modelos de *Machine Learning* supervisado.
+
+Este proyecto aplica técnicas de regresión y análisis predictivo para estimar las ventas semanales, optimizando la toma de decisiones en la gestión de inventarios y planeamiento operativo.
+
+---
 
 ## 📊 Dataset
-- Fuente: [Kaggle – Walmart Store Sales Forecasting](https://www.kaggle.com/datasets)
-- Periodo: 2010–2012
-- Variables: Fecha, tienda, ventas semanales, CPI, desempleo, día feriado, etc.
+- **Fuente:** [Kaggle – Walmart Store Sales Forecasting](https://www.kaggle.com/datasets)
+- **Periodo:** 2010–2012  
+- **Variables principales:** Fecha, Tienda, Ventas Semanales, CPI, Desempleo, Día Feriado, Temperatura, Fuel Price.
+
+---
 
 ## ⚙️ Modelos y resultados
+
 | Modelo | R² | RMSE |
 |---------|-----|-------|
 | Random Forest | 0.935 | 144,150 |
@@ -14,15 +21,39 @@ Proyecto de predicción de ventas semanales usando modelos de Machine Learning (
 | LightGBM | **0.9757** | **88,450** |
 | CatBoost | 0.963 | 108,724 |
 
-**Conclusión:** LightGBM obtuvo el mejor rendimiento con alta precisión y generalización.
+📈 **Conclusión:**  
+El modelo **LightGBM** alcanzó el mejor rendimiento, logrando una predicción precisa con la menor desviación promedio (RMSE).  
+Demuestra alta capacidad de generalización y estabilidad frente a los demás modelos.
 
-## 📈 Dashboard
-Incluye visualización interactiva en Power BI exportada a PDF (`Dashboard_Walmart.pdf`).
+---
 
-## 🧩 Tecnologías
-- Python, Scikit-learn, LightGBM, CatBoost, XGBoost  
-- Pandas, NumPy, Seaborn, Matplotlib  
-- Power BI
+## 📊 Dashboard Power BI
+Se incluye una **visualización interactiva en Power BI**, exportada como PDF para análisis de tendencias, comportamiento de ventas y variación por tienda:
 
-## 🧠 Autor
-Andrew Joshua Flores Díaz– 2025
+📄 `Dashboard_Walmart.pdf`
+
+---
+
+## 🧩 Tecnologías utilizadas
+- **Lenguaje:** Python  
+- **Librerías ML:** Scikit-learn, LightGBM, CatBoost, XGBoost  
+- **Procesamiento:** Pandas, NumPy  
+- **Visualización:** Seaborn, Matplotlib, Power BI  
+
+---
+
+## 🚀 Ejecución del proyecto
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/TU_USUARIO/walmart-forecasting.git
+
+# Entrar a la carpeta del proyecto
+cd walmart-forecasting
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Ejecutar el notebook
+jupyter notebook Walmart_proyect.ipynb
+
