@@ -57,3 +57,10 @@ pip install -r requirements.txt
 # Ejecutar el notebook
 jupyter notebook Walmart_proyect.ipynb
 
+<<<<<<< HEAD
+=======
+## 🧠 Autor
+Andrew Joshua Flores Díaz – 2025
+📍 Data Science & Machine Learning Enthusiast
+
+>>>>>>> 12af02c8fa748cd303acaaf0915ec93c98c1954b
