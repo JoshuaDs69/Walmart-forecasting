@@ -25,4 +25,6 @@ Incluye visualización interactiva en Power BI exportada a PDF (`Dashboard_Walma
 - Power BI
 
 ## 🧠 Autor
-Andrew Joshua Flores Díaz– 2025
+Andrew Joshua Flores Díaz – 2025
+📍 Data Science & Machine Learning Enthusiast
+
