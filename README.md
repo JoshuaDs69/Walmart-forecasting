@@ -33,7 +33,7 @@ Demuestra alta capacidad de generalización y estabilidad frente a los demás mo
 ## 📊 Dashboard Power BI
 Se incluye una **visualización interactiva en Power BI**, exportada como PDF para análisis de tendencias, comportamiento de ventas y variación por tienda:
 
-📄 `Dashboard_Walmart.pdf`
+<img width="2000" height="1156" alt="image" src="https://github.com/user-attachments/assets/465c26ad-0a11-4b3a-8163-89b90e0b3924" />
 
 ---
 
@@ -45,25 +45,6 @@ Se incluye una **visualización interactiva en Power BI**, exportada como PDF pa
 
 ---
 
-## 🚀 Ejecución del proyecto
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/TU_USUARIO/walmart-forecasting.git
-
-# Entrar a la carpeta del proyecto
-cd walmart-forecasting
-
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar el notebook
-jupyter notebook Walmart_proyect.ipynb
-
-<<<<<<< HEAD
-=======
 ## 🧠 Autor
 Andrew Joshua Flores Díaz – 2025
 📍 Data Science & Machine Learning Enthusiast
-
->>>>>>> 12af02c8fa748cd303acaaf0915ec93c98c1954b
