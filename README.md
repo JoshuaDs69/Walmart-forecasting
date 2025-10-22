@@ -1,6 +1,9 @@
 # 🧠 Walmart Sales Forecasting
 Predicción de ventas semanales en tiendas **Walmart** utilizando modelos de *Machine Learning* supervisado.
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/1bd9fa66-2a73-4ec3-88b3-6e6472f73cc8" />
+
+
 Este proyecto aplica técnicas de regresión y análisis predictivo para estimar las ventas semanales, optimizando la toma de decisiones en la gestión de inventarios y planeamiento operativo.
 
 ---
