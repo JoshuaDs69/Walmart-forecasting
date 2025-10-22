@@ -1,0 +1,42 @@
+# Archivos del sistema de Windows
+desktop.ini
+Thumbs.db
+
+# Archivos del sistema de Mac (por si mueves el repo)
+.DS_Store
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Datos grandes (datasets, modelos)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.h5
+*.db
+*.sqlite
+*.zip
+*.gz
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración locales (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
