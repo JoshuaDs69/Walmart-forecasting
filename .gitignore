@@ -65,3 +65,6 @@ docker-compose.yml
 
 # Cache de MLflow
 mlartifacts/
+
+# Allow Docker Compose file
+!docker-compose.yml

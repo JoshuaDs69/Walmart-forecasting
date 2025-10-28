@@ -1,5 +1,5 @@
 # 🧠 Walmart Sales Forecasting
-Predicción de ventas semanales en tiendas **Walmart** utilizando modelos de *Machine Learning* supervisado.
+Predicción de ventas semanales en tiendas Walmart mediante modelos de Machine Learning supervisado, gestionados y desplegados en un entorno reproducible con Docker y MLflow.
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/1bd9fa66-2a73-4ec3-88b3-6e6472f73cc8" />
 
@@ -37,11 +37,17 @@ Se incluye una **visualización interactiva en Power BI**, exportada como PDF pa
 
 ---
 
-## 🧩 Tecnologías utilizadas
-- **Lenguaje:** Python  
-- **Librerías ML:** Scikit-learn, LightGBM, CatBoost, XGBoost  
-- **Procesamiento:** Pandas, NumPy  
-- **Visualización:** Seaborn, Matplotlib, Power BI  
+
+##🧰 Tecnologías utilizadas
+**Categoría:**	Tecnologías
+**Lenguaje:**	Python 3.11
+**Machine Learning:**	scikit-learn, LightGBM, XGBoost, CatBoost
+**Tracking:**	MLflow
+**Base de datos:**	MySQL 8
+**Contenedores:**	Docker, Docker Compose
+**Visualización:**	Power BI, Matplotlib, Seaborn
+**Gestión de código:**	Git + GitHub
+
 
 ---
 
