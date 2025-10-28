@@ -40,3 +40,28 @@ ENV/
 *.log
 *.tmp
 *.bak
+
+mlruns/
+.venv/
+
+
+# Archivos de entorno o instalación
+*.egg-info/
+*.eggs/
+pip-wheel-metadata/
+
+# Archivos de entorno (variables secretas, tokens)
+.env
+.env.*
+
+# Docker
+*.pid
+*.sock
+docker-compose.yml
+
+# Archivos temporales de VSCode (terminales, historial)
+.history/
+*.code-workspace
+
+# Cache de MLflow
+mlartifacts/
