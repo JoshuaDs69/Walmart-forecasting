@@ -38,14 +38,21 @@ Se incluye una **visualización interactiva en Power BI**, exportada como PDF pa
 ---
 
 
-##🧰 Tecnologías utilizadas
+## 🧰 Tecnologías utilizadas
 **Categoría:**	Tecnologías
+
 **Lenguaje:**	Python 3.11
+
 **Machine Learning:**	scikit-learn, LightGBM, XGBoost, CatBoost
+
 **Tracking:**	MLflow
+
 **Base de datos:**	MySQL 8
+
 **Contenedores:**	Docker, Docker Compose
+
 **Visualización:**	Power BI, Matplotlib, Seaborn
+
 **Gestión de código:**	Git + GitHub
 
 
