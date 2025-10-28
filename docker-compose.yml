@@ -1,0 +1,29 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-mlflow
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: mlflow_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: always
+
+  mlflow:
+    build: .
+    container_name: mlflow-server
+    depends_on:
+      - mysql
+    ports:
+      - "5000:5000"
+    environment:
+      BACKEND_STORE_URI: mysql+pymysql://root:admin@mysql/mlflow_db
+      DEFAULT_ARTIFACT_ROOT: ./mlruns
+    volumes:
+      - ./mlruns:/app/mlruns
+    restart: on-failure
+
+volumes:
+  mysql_data:
